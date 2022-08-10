@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+body {
+    display: flex;
+    flex-direction: column;
+}
+.head_btn_dad {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+.head_btn_dad button {
+    width: 254px;
+    height: 55px;
+    border-radius: 10px;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+}
+.tex_one {
+    margin: 15px;
+}
+.container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px auto;
+    gap: 40px;
+}
+.box {
+    transform: .5s ease;
+    gap: 0;
+    display: flex;
+    flex-direction: column;
+}
+.bottom_img {
+    width: 130px;
+    height: 161px;
+}
+.box_top {
+    width: 360px;
+    text-align: center;
+    padding: 10px;
+    height: 200px;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    background-color: white;
+}
+.box_bottom {
+    gap: 10px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    width: 360px;
+    height: 240px;
+    display: flex;
+    flex-direction: column;
+}
+.top_tex_one {
+    margin: 5px auto;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 29.4px;
+    color: white;
+}
+.top_tex_two {
+    margin: 5px auto;
+    padding: 5px;
+    overflow-y: scroll;
+    height: 60px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 17.15px;
+    opacity: .5;
+}
+.btn {
+    margin: 50px auto;
+    width: 254px;
+    height: 55px;
+    border-radius: 10px;
+    border: none;
+    background-color: #06c;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+}
+.top_tex_btn {
+    width: 305px;
+    height: 55px;
+    background-color: white;
+    color: black;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.active {
+    background-color: #06c;
+    color: white;
+
+}
+.cartCont {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 50px auto;
+    gap: 40px;
+}
